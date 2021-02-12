@@ -10,7 +10,6 @@ import SwiftUI
 struct HomeView: View {
     var body: some View {
         GeometryReader { geometry in
-            
             ScrollView {
                 VStack {
                     ZStack( alignment: .center) {
@@ -25,12 +24,10 @@ struct HomeView: View {
                                         .fontWeight(.bold)
                                 }
                                 .foregroundColor(Color(hex:"1A5182").opacity(1))
-                                
                             }
                         }.padding(32)
                         .zIndex(1)
                         .frame(width: geometry.size.width, alignment: .topLeading)
-                        
                         
                         Image("img_home_bg")
                             .resizable()
@@ -41,10 +38,16 @@ struct HomeView: View {
                  
                     let byHeight = geometry.size.height < 700 ? 0.13 : 0.075
                     Spacer().frame(height: geometry.size.height * CGFloat(byHeight))
-                    DataCardView()
+                    
+                    VStack(spacing : 20) {
+                        DataCardView()
+                        DataCardView()
+                        DataCardView()
+                        DataCardView()
+                        DataCardView()
+                        DataCardView()
+                    }
                 }
-                
-                
                 Spacer().padding(.bottom, 60)
             }.ignoresSafeArea(.all, edges: .top)
         }
