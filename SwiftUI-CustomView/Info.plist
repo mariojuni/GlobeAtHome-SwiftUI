@@ -2,6 +2,19 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>FS-Elliot-Pro-Bold.otf</string>
+		<string>FS-Elliot-Pro-BoldItalic.otf</string>
+		<string>FS-Elliot-Pro-Heavy.otf</string>
+		<string>FS-Elliot-Pro-HeavyItalic.otf</string>
+		<string>FS-Elliot-Pro-Italic.otf</string>
+		<string>FS-Elliot-Pro-Light.otf</string>
+		<string>FS-Elliot-Pro-LightItalic.otf</string>
+		<string>FS-Elliot-Pro-Regular.otf</string>
+		<string>FS-Elliot-Pro-Thin.otf</string>
+		<string>FS-Elliot-Pro-ThinItalic.otf</string>
+	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>

@@ -13,6 +13,12 @@
 		DB9B20A225CD814A00F1FF58 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB9B20A125CD814A00F1FF58 /* Preview Assets.xcassets */; };
 		DB9B20AD25CD814A00F1FF58 /* SwiftUI_CustomViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9B20AC25CD814A00F1FF58 /* SwiftUI_CustomViewTests.swift */; };
 		DB9B20B825CD814A00F1FF58 /* SwiftUI_CustomViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9B20B725CD814A00F1FF58 /* SwiftUI_CustomViewUITests.swift */; };
+		DBE0CA3625D1BD6A0040EE6E /* QuickMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE0CA3525D1BD6A0040EE6E /* QuickMenuView.swift */; };
+		DBE0CA4125D1C8F30040EE6E /* BottomBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE0CA4025D1C8F30040EE6E /* BottomBarView.swift */; };
+		DBE0CA6925D62D9C0040EE6E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE0CA6825D62D9C0040EE6E /* HomeView.swift */; };
+		DBE0CA6E25D634730040EE6E /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE0CA6D25D634730040EE6E /* Color+Extension.swift */; };
+		DBE0CA7625D661510040EE6E /* DataCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE0CA7525D661500040EE6E /* DataCardView.swift */; };
+		DBEB6DFC25D017A20025C039 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEB6DFB25D017A20025C039 /* View+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +51,23 @@
 		DB9B20B325CD814A00F1FF58 /* SwiftUI-CustomViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-CustomViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB9B20B725CD814A00F1FF58 /* SwiftUI_CustomViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_CustomViewUITests.swift; sourceTree = "<group>"; };
 		DB9B20B925CD814A00F1FF58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBE0CA3525D1BD6A0040EE6E /* QuickMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickMenuView.swift; sourceTree = "<group>"; };
+		DBE0CA4025D1C8F30040EE6E /* BottomBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBarView.swift; sourceTree = "<group>"; };
+		DBE0CA6825D62D9C0040EE6E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		DBE0CA6D25D634730040EE6E /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		DBE0CA7525D661500040EE6E /* DataCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCardView.swift; sourceTree = "<group>"; };
+		DBEB6DEB25D015930025C039 /* FS-Elliot-Pro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FS-Elliot-Pro-Bold.otf"; sourceTree = "<group>"; };
+		DBEB6DEC25D015930025C039 /* FS-Elliot-Pro-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FS-Elliot-Pro-HeavyItalic.otf"; sourceTree = "<group>"; };
+		DBEB6DED25D015930025C039 /* FS-Elliot-Pro-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FS-Elliot-Pro-LightItalic.otf"; sourceTree = "<group>"; };
+		DBEB6DEE25D015930025C039 /* FS-Elliot-Pro-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FS-Elliot-Pro-Heavy.otf"; sourceTree = "<group>"; };
+		DBEB6DEF25D015930025C039 /* FS-Elliot-Pro-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FS-Elliot-Pro-Light.otf"; sourceTree = "<group>"; };
+		DBEB6DF025D015930025C039 /* FS-Elliot-Pro-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FS-Elliot-Pro-Italic.otf"; sourceTree = "<group>"; };
+		DBEB6DF125D015930025C039 /* FS-Elliot-Pro-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FS-Elliot-Pro-ThinItalic.otf"; sourceTree = "<group>"; };
+		DBEB6DF225D015930025C039 /* FS-Elliot-Pro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FS-Elliot-Pro-Regular.otf"; sourceTree = "<group>"; };
+		DBEB6DF325D015940025C039 /* Barlow-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Regular.ttf"; sourceTree = "<group>"; };
+		DBEB6DF425D015940025C039 /* FS-Elliot-Pro-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FS-Elliot-Pro-BoldItalic.otf"; sourceTree = "<group>"; };
+		DBEB6DF525D015940025C039 /* FS-Elliot-Pro-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FS-Elliot-Pro-Thin.otf"; sourceTree = "<group>"; };
+		DBEB6DFB25D017A20025C039 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +118,9 @@
 		DB9B209925CD814800F1FF58 /* SwiftUI-CustomView */ = {
 			isa = PBXGroup;
 			children = (
+				DBEB6DFA25D017820025C039 /* Extensions */,
+				DBEB6DEA25D015670025C039 /* Resources */,
+				DBE0CA3425D1BD500040EE6E /* Modules */,
 				DB9B209A25CD814800F1FF58 /* SwiftUI_CustomViewApp.swift */,
 				DB9B209C25CD814800F1FF58 /* ContentView.swift */,
 				DB9B209E25CD814A00F1FF58 /* Assets.xcassets */,
@@ -128,6 +154,52 @@
 				DB9B20B925CD814A00F1FF58 /* Info.plist */,
 			);
 			path = "SwiftUI-CustomViewUITests";
+			sourceTree = "<group>";
+		};
+		DBE0CA3425D1BD500040EE6E /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				DBE0CA3525D1BD6A0040EE6E /* QuickMenuView.swift */,
+				DBE0CA4025D1C8F30040EE6E /* BottomBarView.swift */,
+				DBE0CA6825D62D9C0040EE6E /* HomeView.swift */,
+				DBE0CA7525D661500040EE6E /* DataCardView.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		DBEB6DEA25D015670025C039 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DBEB6DF625D0159A0025C039 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DBEB6DF625D0159A0025C039 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DBEB6DF325D015940025C039 /* Barlow-Regular.ttf */,
+				DBEB6DEB25D015930025C039 /* FS-Elliot-Pro-Bold.otf */,
+				DBEB6DF425D015940025C039 /* FS-Elliot-Pro-BoldItalic.otf */,
+				DBEB6DEE25D015930025C039 /* FS-Elliot-Pro-Heavy.otf */,
+				DBEB6DEC25D015930025C039 /* FS-Elliot-Pro-HeavyItalic.otf */,
+				DBEB6DF025D015930025C039 /* FS-Elliot-Pro-Italic.otf */,
+				DBEB6DEF25D015930025C039 /* FS-Elliot-Pro-Light.otf */,
+				DBEB6DED25D015930025C039 /* FS-Elliot-Pro-LightItalic.otf */,
+				DBEB6DF225D015930025C039 /* FS-Elliot-Pro-Regular.otf */,
+				DBEB6DF525D015940025C039 /* FS-Elliot-Pro-Thin.otf */,
+				DBEB6DF125D015930025C039 /* FS-Elliot-Pro-ThinItalic.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		DBEB6DFA25D017820025C039 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DBEB6DFB25D017A20025C039 /* View+Extension.swift */,
+				DBE0CA6D25D634730040EE6E /* Color+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +331,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBEB6DFC25D017A20025C039 /* View+Extension.swift in Sources */,
+				DBE0CA6E25D634730040EE6E /* Color+Extension.swift in Sources */,
 				DB9B209D25CD814800F1FF58 /* ContentView.swift in Sources */,
 				DB9B209B25CD814800F1FF58 /* SwiftUI_CustomViewApp.swift in Sources */,
+				DBE0CA7625D661510040EE6E /* DataCardView.swift in Sources */,
+				DBE0CA6925D62D9C0040EE6E /* HomeView.swift in Sources */,
+				DBE0CA4125D1C8F30040EE6E /* BottomBarView.swift in Sources */,
+				DBE0CA3625D1BD6A0040EE6E /* QuickMenuView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
