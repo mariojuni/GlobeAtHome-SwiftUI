@@ -42,6 +42,8 @@ struct DataCardView: View {
                         .foregroundColor(Color(hex:"007DEF"))
                 }
             }.padding([.leading, .trailing], 20)
+            .shadow(color: Color(hex:"007DEF").opacity(0.7), radius: 10, x: 0, y: 1)
+        
         }
     }
 }
