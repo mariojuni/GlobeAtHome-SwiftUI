@@ -10,7 +10,7 @@ import SwiftUI
 struct DataCardView: View {
     
     var body: some View {
-            VStack( spacing: 10) {
+            LazyVStack( spacing: 10) {
                 HStack(alignment: .center ) {
                     ZStack (alignment: .leading) {
                         HStack(spacing: 10)  {
@@ -18,9 +18,10 @@ struct DataCardView: View {
                             VStack (alignment:.leading) {
                                 Group {
                                     Text("Surf Away")
-                                        .font(.custom("FS-Elliot-Pro ", size: 16))
+                                        .font(.custom("FS Elliot Pro", size: 16))
+                                        .fontWeight(.bold)
                                     Text("You still got plenty of data left.")
-                                        .font(.custom("FS-Elliot-Pro ", size: 12))
+                                        .font(.custom("FS Elliot Pro", size: 12))
                                 }.foregroundColor(.white)
                                 
                             }.padding(.trailing , 10)
@@ -28,13 +29,16 @@ struct DataCardView: View {
                             Group {
                                 HStack {
                                     Text("356")
-                                        .font(.custom("FS-Elliot-Pro ", size: 30))
+                                        .font(.custom("Barlow Regular", size: 30))
+                                        .fontWeight(.bold)
                                     Text("GB \nLEFT")
-                                        .font(.custom("FS-Elliot-Pro ", size: 13))}
-                                
-                            }.foregroundColor(.white)
-                            
-                            
+                                        .font(.custom("FS Elliot Pro", size: 13))
+                                        .fontWeight(.bold)
+                                        .opacity(0.7)
+                                }
+                            }
+                            .padding(.trailing, 20)
+                            .foregroundColor(.white)
                         }.zIndex(1)
                         Rectangle()
                             .frame(minWidth: 0, maxWidth: .infinity)

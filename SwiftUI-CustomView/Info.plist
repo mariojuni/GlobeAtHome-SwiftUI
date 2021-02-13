@@ -4,6 +4,7 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
+		<string>Barlow-Regular.ttf</string>
 		<string>FS-Elliot-Pro-Bold.otf</string>
 		<string>FS-Elliot-Pro-BoldItalic.otf</string>
 		<string>FS-Elliot-Pro-Heavy.otf</string>

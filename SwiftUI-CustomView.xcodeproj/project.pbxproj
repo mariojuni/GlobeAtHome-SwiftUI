@@ -18,6 +18,17 @@
 		DBE0CA6925D62D9C0040EE6E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE0CA6825D62D9C0040EE6E /* HomeView.swift */; };
 		DBE0CA6E25D634730040EE6E /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE0CA6D25D634730040EE6E /* Color+Extension.swift */; };
 		DBE0CA7625D661510040EE6E /* DataCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE0CA7525D661500040EE6E /* DataCardView.swift */; };
+		DBE0CB8125D80AEF0040EE6E /* Barlow-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DBEB6DF325D015940025C039 /* Barlow-Regular.ttf */; };
+		DBE0CB8525D80AF80040EE6E /* FS-Elliot-Pro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DBEB6DEB25D015930025C039 /* FS-Elliot-Pro-Bold.otf */; };
+		DBE0CB8925D80AFB0040EE6E /* FS-Elliot-Pro-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DBEB6DF425D015940025C039 /* FS-Elliot-Pro-BoldItalic.otf */; };
+		DBE0CB8D25D80AFE0040EE6E /* FS-Elliot-Pro-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = DBEB6DEE25D015930025C039 /* FS-Elliot-Pro-Heavy.otf */; };
+		DBE0CB9125D80B020040EE6E /* FS-Elliot-Pro-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DBEB6DEC25D015930025C039 /* FS-Elliot-Pro-HeavyItalic.otf */; };
+		DBE0CB9525D80B050040EE6E /* FS-Elliot-Pro-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DBEB6DF025D015930025C039 /* FS-Elliot-Pro-Italic.otf */; };
+		DBE0CB9925D80B080040EE6E /* FS-Elliot-Pro-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = DBEB6DEF25D015930025C039 /* FS-Elliot-Pro-Light.otf */; };
+		DBE0CB9D25D80B0B0040EE6E /* FS-Elliot-Pro-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DBEB6DED25D015930025C039 /* FS-Elliot-Pro-LightItalic.otf */; };
+		DBE0CBA125D80B0E0040EE6E /* FS-Elliot-Pro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = DBEB6DF225D015930025C039 /* FS-Elliot-Pro-Regular.otf */; };
+		DBE0CBA525D80B110040EE6E /* FS-Elliot-Pro-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = DBEB6DF525D015940025C039 /* FS-Elliot-Pro-Thin.otf */; };
+		DBE0CBA925D80B140040EE6E /* FS-Elliot-Pro-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DBEB6DF125D015930025C039 /* FS-Elliot-Pro-ThinItalic.otf */; };
 		DBEB6DFC25D017A20025C039 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEB6DFB25D017A20025C039 /* View+Extension.swift */; };
 /* End PBXBuildFile section */
 
@@ -305,8 +316,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBE0CB9D25D80B0B0040EE6E /* FS-Elliot-Pro-LightItalic.otf in Resources */,
+				DBE0CB8925D80AFB0040EE6E /* FS-Elliot-Pro-BoldItalic.otf in Resources */,
+				DBE0CBA525D80B110040EE6E /* FS-Elliot-Pro-Thin.otf in Resources */,
+				DBE0CB9925D80B080040EE6E /* FS-Elliot-Pro-Light.otf in Resources */,
+				DBE0CB8525D80AF80040EE6E /* FS-Elliot-Pro-Bold.otf in Resources */,
+				DBE0CB9125D80B020040EE6E /* FS-Elliot-Pro-HeavyItalic.otf in Resources */,
 				DB9B20A225CD814A00F1FF58 /* Preview Assets.xcassets in Resources */,
+				DBE0CB8D25D80AFE0040EE6E /* FS-Elliot-Pro-Heavy.otf in Resources */,
+				DBE0CB8125D80AEF0040EE6E /* Barlow-Regular.ttf in Resources */,
+				DBE0CBA125D80B0E0040EE6E /* FS-Elliot-Pro-Regular.otf in Resources */,
 				DB9B209F25CD814A00F1FF58 /* Assets.xcassets in Resources */,
+				DBE0CB9525D80B050040EE6E /* FS-Elliot-Pro-Italic.otf in Resources */,
+				DBE0CBA925D80B140040EE6E /* FS-Elliot-Pro-ThinItalic.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

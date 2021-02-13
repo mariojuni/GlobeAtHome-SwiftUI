@@ -17,10 +17,10 @@ struct HomeView: View {
                             VStack(alignment: .leading ,spacing : 8){
                                 Group {
                                     Text("Good Morning!")
-                                        .font(.custom("FS-Elliot-Pro ", size: 14))
+                                        .font(.custom("FS Elliot Pro ", size: 14))
                                     
                                     Text("Mario Juni")
-                                        .font(.custom("FS-Elliot-Pro", size: 25))
+                                        .font(.custom("FS Elliot Pro", size: 25))
                                         .fontWeight(.bold)
                                 }
                                 .foregroundColor(Color(hex:"1A5182").opacity(1))
