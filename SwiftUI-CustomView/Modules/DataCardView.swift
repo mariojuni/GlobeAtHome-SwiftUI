@@ -8,14 +8,13 @@
 import SwiftUI
 
 struct DataCardView: View {
-    
     var body: some View {
-            LazyVStack( spacing: 10) {
+            LazyVStack {
                 HStack(alignment: .center ) {
                     ZStack (alignment: .leading) {
-                        HStack(spacing: 10)  {
-                            Image("ic_data").padding(.leading, 20)
-                            VStack (alignment:.leading) {
+                        HStack {
+                            Image("ic_data").frame(width: 40, height: 40)
+                            VStack (alignment:.leading , spacing: 3) {
                                 Group {
                                     Text("Surf Away")
                                         .font(.custom("FS Elliot Pro", size: 16))
@@ -23,32 +22,29 @@ struct DataCardView: View {
                                     Text("You still got plenty of data left.")
                                         .font(.custom("FS Elliot Pro", size: 12))
                                 }.foregroundColor(.white)
-                                
-                            }.padding(.trailing , 10)
-                            
+                            }
+                            Spacer()
                             Group {
                                 HStack {
                                     Text("356")
-                                        .font(.custom("Barlow Regular", size: 30))
+                                        .font(.custom("Barlow Regular", size: 29))
                                         .fontWeight(.bold)
                                     Text("GB \nLEFT")
-                                        .font(.custom("FS Elliot Pro", size: 13))
+                                        .font(.custom("FS Elliot Pro", size: 10))
                                         .fontWeight(.bold)
                                         .opacity(0.7)
                                 }
-                            }
-                            .padding(.trailing, 20)
-                            .foregroundColor(.white)
+                            }.foregroundColor(.white)
                         }.zIndex(1)
+                        .padding(20)
                         Rectangle()
                             .frame(minWidth: 0, maxWidth: .infinity)
-                            .frame(height: 100)
                             .cornerRadius(15.0)
                             .foregroundColor(Color(hex:"007DEF"))
                     }
-                }.padding([.leading, .trailing], 20)
-            }
-            .shadow(color: Color(hex:"007DEF").opacity(0.7), radius: 10, x: 0, y: 1)
+                }.padding([.top,.bottom],5)
+                .padding([.leading,.trailing],20)
+            }.shadow(color: Color(hex:"007DEF").opacity(0.7), radius: 7, x: 0, y: 1)
         }
 }
 

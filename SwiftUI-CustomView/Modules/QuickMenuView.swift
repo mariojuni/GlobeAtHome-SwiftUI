@@ -50,10 +50,10 @@ struct QuickMenuView: View {
                                             Image((secondArr[secIndex].menu.value.img)).renderingMode(.original).frame(height: geometry.size.height * 0.02)
                                             Text((secondArr[secIndex].menu.value.label))
                                                 .font(.custom("FS Elliot Pro Bold", size: 10))
-                                                
                                                 .fontWeight(.bold)
                                                 .multilineTextAlignment(.center)
                                                 .foregroundColor(Color("text_color"))
+                                                .opacity(0.7)
                                         }
                                     }
                                 }

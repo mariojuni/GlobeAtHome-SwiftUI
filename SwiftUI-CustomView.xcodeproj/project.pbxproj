@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB5DBCF025D96ECB002BD31C /* ConnectionAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5DBCEF25D96ECB002BD31C /* ConnectionAlertView.swift */; };
 		DB9B209B25CD814800F1FF58 /* SwiftUI_CustomViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9B209A25CD814800F1FF58 /* SwiftUI_CustomViewApp.swift */; };
 		DB9B209D25CD814800F1FF58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9B209C25CD814800F1FF58 /* ContentView.swift */; };
 		DB9B209F25CD814A00F1FF58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB9B209E25CD814A00F1FF58 /* Assets.xcassets */; };
@@ -50,6 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DB5DBCEF25D96ECB002BD31C /* ConnectionAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionAlertView.swift; sourceTree = "<group>"; };
 		DB9B209725CD814800F1FF58 /* SwiftUI-CustomView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-CustomView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB9B209A25CD814800F1FF58 /* SwiftUI_CustomViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_CustomViewApp.swift; sourceTree = "<group>"; };
 		DB9B209C25CD814800F1FF58 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 				DBE0CA3525D1BD6A0040EE6E /* QuickMenuView.swift */,
 				DBE0CA4025D1C8F30040EE6E /* BottomBarView.swift */,
 				DBE0CA6825D62D9C0040EE6E /* HomeView.swift */,
+				DB5DBCEF25D96ECB002BD31C /* ConnectionAlertView.swift */,
 				DBE0CA7525D661500040EE6E /* DataCardView.swift */,
 			);
 			path = Modules;
@@ -357,6 +360,7 @@
 				DBE0CA6E25D634730040EE6E /* Color+Extension.swift in Sources */,
 				DB9B209D25CD814800F1FF58 /* ContentView.swift in Sources */,
 				DB9B209B25CD814800F1FF58 /* SwiftUI_CustomViewApp.swift in Sources */,
+				DB5DBCF025D96ECB002BD31C /* ConnectionAlertView.swift in Sources */,
 				DBE0CA7625D661510040EE6E /* DataCardView.swift in Sources */,
 				DBE0CA6925D62D9C0040EE6E /* HomeView.swift in Sources */,
 				DBE0CA4125D1C8F30040EE6E /* BottomBarView.swift in Sources */,

@@ -35,18 +35,17 @@ struct HomeView: View {
                             .frame(width: geometry.size.width, height:  geometry.size.height * 0.3, alignment: .top)
                         
                     }
-                 
+                    
                     let byHeight = geometry.size.height < 700 ? 0.13 : 0.075
                     Spacer().frame(height: geometry.size.height * CGFloat(byHeight))
                     
-                    VStack(spacing : 20) {
-                        DataCardView()
-                        DataCardView()
-                        DataCardView()
-                        DataCardView()
-                        DataCardView()
-                        DataCardView()
-                    }
+                    ConnectionAlertView()
+                    DataCardView()
+                    DataCardView()
+                    DataCardView()
+                    DataCardView()
+                    DataCardView()
+                    
                 }
                 Spacer().padding(.bottom, 60)
             }.ignoresSafeArea(.all, edges: .top)
