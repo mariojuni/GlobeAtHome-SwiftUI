@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var isQuickMenuShown: Bool = false
+    @State var quickMenuShow: Bool = false
     
     var body: some View {
         GeometryReader { geometry in
@@ -20,18 +20,18 @@ struct ContentView: View {
                     ZStack(alignment: .bottom ) {
                         HStack(alignment: .bottom ) {
                             Spacer().frame(width: geometry.size.width * 0.1)
-                            QuickMenuView(isVisible: $isQuickMenuShown)
+                            QuickMenuView(isVisible: $quickMenuShow)
                             Spacer().frame(width: geometry.size.width * 0.1)
                         }.zIndex(1)
                         .offset(y: -20)
-                        .hidden(!isQuickMenuShown)
+                        .hidden(!quickMenuShow)
                         
                         BottomBarView()
                             .frame(width: geometry.size.width, height: 55)
                             .background(ConcaveShapeView())
                         
                         Button( action: {
-                            isQuickMenuShown.toggle()
+                            quickMenuShow.toggle()
                         }){
                             Image("ic_tabitem_center").renderingMode(.original).padding(20)
                         }
@@ -39,7 +39,7 @@ struct ContentView: View {
                         .clipShape(Circle())
                         .shadow(color: Color.black.opacity(0.1), radius: 4, x: 0, y: 1)
                         .offset(y:-20)
-                        .hidden(isQuickMenuShown)
+                        .hidden(quickMenuShow)
                     }
                 }
             }
