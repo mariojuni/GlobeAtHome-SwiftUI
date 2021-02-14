@@ -44,6 +44,7 @@ struct HomeView: View {
                     StackableView()
                     SuggestionView()
                     DataCardView()
+                    HelpAndSupportView()
                     
                 }
                 Spacer().padding(.bottom, 60)
