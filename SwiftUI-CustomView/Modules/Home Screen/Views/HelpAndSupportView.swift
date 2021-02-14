@@ -14,7 +14,7 @@ struct HelpAndSupportView: View {
                     Image("ic_help_support_bg")
                         .resizable()
                         .aspectRatio(contentMode: .fill)
-                        .frame(minWidth: 0, maxWidth: .infinity).aspectRatio(contentMode: .fill)
+                        .frame(minWidth: 0, maxWidth: .infinity)
                     ZStack(alignment:.trailing) {
                         Rectangle().frame(height:60)
                             .foregroundColor(Color.white)

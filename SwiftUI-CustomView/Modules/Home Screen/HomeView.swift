@@ -39,13 +39,22 @@ struct HomeView: View {
                     let byHeight = geometry.size.height < 700 ? 0.13 : 0.075
                     Spacer().frame(height: geometry.size.height * CGFloat(byHeight))
                 
-                    DataCardView()
                     ConnectionAlertView()
-                    StackableView()
-                    SuggestionView()
                     DataCardView()
+                    SuggestionView()
+                    StackableView()
+                    ZStack {
+                        VStack (spacing: 0) {
+                            Rectangle().fill(Color(hex: "CAD6E8")).frame(height: 5)
+                                .foregroundColor(.black)
+                            Rectangle()
+                                .foregroundColor(Color(hex: "DEE6F3"))
+                                .frame(width: geometry.size.width, height: 200)
+                        }
+                        
+                     //   SnapCarousel()
+                    }
                     HelpAndSupportView()
-                    
                 }
                 Spacer().padding(.bottom, 60)
             }.ignoresSafeArea(.all, edges: .top)

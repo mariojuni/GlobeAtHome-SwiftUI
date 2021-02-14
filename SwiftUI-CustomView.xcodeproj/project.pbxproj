@@ -11,6 +11,7 @@
 		DB5DBCF525D984C6002BD31C /* SuggestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5DBCF425D984C6002BD31C /* SuggestionView.swift */; };
 		DB5DBCFA25D9983E002BD31C /* StackableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5DBCF925D9983E002BD31C /* StackableView.swift */; };
 		DB5DBCFF25D99E1A002BD31C /* HelpAndSupportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5DBCFE25D99E1A002BD31C /* HelpAndSupportView.swift */; };
+		DB5DBD1125D9AAED002BD31C /* SnapCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5DBD1025D9AAED002BD31C /* SnapCarousel.swift */; };
 		DB9B209B25CD814800F1FF58 /* SwiftUI_CustomViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9B209A25CD814800F1FF58 /* SwiftUI_CustomViewApp.swift */; };
 		DB9B209D25CD814800F1FF58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9B209C25CD814800F1FF58 /* ContentView.swift */; };
 		DB9B209F25CD814A00F1FF58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB9B209E25CD814A00F1FF58 /* Assets.xcassets */; };
@@ -58,6 +59,7 @@
 		DB5DBCF425D984C6002BD31C /* SuggestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionView.swift; sourceTree = "<group>"; };
 		DB5DBCF925D9983E002BD31C /* StackableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackableView.swift; sourceTree = "<group>"; };
 		DB5DBCFE25D99E1A002BD31C /* HelpAndSupportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpAndSupportView.swift; sourceTree = "<group>"; };
+		DB5DBD1025D9AAED002BD31C /* SnapCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapCarousel.swift; sourceTree = "<group>"; };
 		DB9B209725CD814800F1FF58 /* SwiftUI-CustomView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-CustomView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB9B209A25CD814800F1FF58 /* SwiftUI_CustomViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_CustomViewApp.swift; sourceTree = "<group>"; };
 		DB9B209C25CD814800F1FF58 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -114,6 +116,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB5DBD0325D9A71D002BD31C /* Home Screen */ = {
+			isa = PBXGroup;
+			children = (
+				DB5DBD0425D9A737002BD31C /* Views */,
+				DBE0CA6825D62D9C0040EE6E /* HomeView.swift */,
+			);
+			path = "Home Screen";
+			sourceTree = "<group>";
+		};
+		DB5DBD0425D9A737002BD31C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DB5DBCEF25D96ECB002BD31C /* ConnectionAlertView.swift */,
+				DB5DBCF425D984C6002BD31C /* SuggestionView.swift */,
+				DBE0CA7525D661500040EE6E /* DataCardView.swift */,
+				DB5DBCF925D9983E002BD31C /* StackableView.swift */,
+				DB5DBCFE25D99E1A002BD31C /* HelpAndSupportView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DB5DBD0B25D9A755002BD31C /* Tab Menu Screen */ = {
+			isa = PBXGroup;
+			children = (
+				DBE0CA4025D1C8F30040EE6E /* BottomBarView.swift */,
+				DBE0CA3525D1BD6A0040EE6E /* QuickMenuView.swift */,
+			);
+			path = "Tab Menu Screen";
+			sourceTree = "<group>";
+		};
+		DB5DBD0F25D9AAC0002BD31C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				DB5DBD1025D9AAED002BD31C /* SnapCarousel.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		DB9B208E25CD814800F1FF58 = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +177,7 @@
 		DB9B209925CD814800F1FF58 /* SwiftUI-CustomView */ = {
 			isa = PBXGroup;
 			children = (
+				DB5DBD0F25D9AAC0002BD31C /* Common */,
 				DBEB6DFA25D017820025C039 /* Extensions */,
 				DBEB6DEA25D015670025C039 /* Resources */,
 				DBE0CA3425D1BD500040EE6E /* Modules */,
@@ -178,14 +219,8 @@
 		DBE0CA3425D1BD500040EE6E /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				DBE0CA3525D1BD6A0040EE6E /* QuickMenuView.swift */,
-				DBE0CA4025D1C8F30040EE6E /* BottomBarView.swift */,
-				DBE0CA6825D62D9C0040EE6E /* HomeView.swift */,
-				DB5DBCEF25D96ECB002BD31C /* ConnectionAlertView.swift */,
-				DBE0CA7525D661500040EE6E /* DataCardView.swift */,
-				DB5DBCFE25D99E1A002BD31C /* HelpAndSupportView.swift */,
-				DB5DBCF425D984C6002BD31C /* SuggestionView.swift */,
-				DB5DBCF925D9983E002BD31C /* StackableView.swift */,
+				DB5DBD0B25D9A755002BD31C /* Tab Menu Screen */,
+				DB5DBD0325D9A71D002BD31C /* Home Screen */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -369,6 +404,7 @@
 				DBEB6DFC25D017A20025C039 /* View+Extension.swift in Sources */,
 				DBE0CA6E25D634730040EE6E /* Color+Extension.swift in Sources */,
 				DB9B209D25CD814800F1FF58 /* ContentView.swift in Sources */,
+				DB5DBD1125D9AAED002BD31C /* SnapCarousel.swift in Sources */,
 				DB5DBCFA25D9983E002BD31C /* StackableView.swift in Sources */,
 				DB9B209B25CD814800F1FF58 /* SwiftUI_CustomViewApp.swift in Sources */,
 				DB5DBCF025D96ECB002BD31C /* ConnectionAlertView.swift in Sources */,
