@@ -10,6 +10,7 @@ import SwiftUI
 struct QuickMenuView: View {
     
     @Binding var isVisible: Bool
+    @State var itemMenu: [[QuickMenuItem]] = [[QuickMenuItem(menu:  .requestVolumeBoost), QuickMenuItem(menu: .payMybill), QuickMenuItem(menu: .paperless), QuickMenuItem(menu: .empty)], [QuickMenuItem(menu: .help), QuickMenuItem(menu: .repair), QuickMenuItem(menu: .trackMyRepair), QuickMenuItem(menu: .status)]]
     
     var body: some View {
         GeometryReader { geometry in
@@ -18,27 +19,13 @@ struct QuickMenuView: View {
                 ZStack(alignment: .bottom ) {
                     
                     QuickMenuShape()
-                        .stroke(Color("primary_color"), lineWidth: 3.0)
-                   
-                        .frame(height: geometry.size.height * (geometry.size.height < 700 ? 0.32 : 0.29))
-                    
-                    QuickMenuShape()
                         .fill(Color.white)
                         .frame(height: geometry.size.height * (geometry.size.height < 700 ? 0.32 : 0.29))
                         .shadow(color: Color.black.opacity(0.3), radius: 3, x: 0, y: 1)
                     
-                    let menuItems =  [[QuickMenuItem(menu: .requestVolumeBoost),
-                                 QuickMenuItem(menu: .payMybill),
-                                 QuickMenuItem(menu: .paperless),
-                                 QuickMenuItem(menu: .empty)],
-                                [QuickMenuItem(menu: .help),
-                                 QuickMenuItem(menu: .repair),
-                                 QuickMenuItem(menu: .trackMyRepair),
-                                 QuickMenuItem(menu: .status)]]
-                    
                     VStack(spacing:  geometry.size.width * 0.1 ){
                         Spacer().frame(height: geometry.size.height * 0.01)
-                        let firstArr = menuItems
+                        let firstArr = itemMenu
                         ForEach(0..<firstArr.endIndex) { index in
                             HStack ( alignment: .top , spacing : geometry.size.width * 0.1  ) {
                                 let secondArr = firstArr[index]
@@ -69,6 +56,10 @@ struct QuickMenuView: View {
                         Image("ic_close").renderingMode(.original).padding(10)
                     }
                 }
+                .overlay(
+                    QuickMenuShape()
+                        .stroke(Color("primary_color"), lineWidth: 3.0)
+                    )
             }
         }
     }

@@ -41,9 +41,7 @@ struct HomeView: View {
                     
                     ConnectionAlertView()
                     DataCardView()
-                    DataCardView()
-                    DataCardView()
-                    DataCardView()
+                    SuggestionView()
                     DataCardView()
                     
                 }
