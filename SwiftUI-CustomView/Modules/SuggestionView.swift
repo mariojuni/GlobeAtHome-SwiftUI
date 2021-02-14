@@ -44,7 +44,7 @@ struct SuggestionView: View {
                         }
                     }
                 }
-            }.padding(.trailing, 20)
+            }.padding([.leading,.trailing], 20)
         }
     }
 }//193B65

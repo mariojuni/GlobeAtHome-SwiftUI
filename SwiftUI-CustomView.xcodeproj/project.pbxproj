@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DB5DBCF025D96ECB002BD31C /* ConnectionAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5DBCEF25D96ECB002BD31C /* ConnectionAlertView.swift */; };
 		DB5DBCF525D984C6002BD31C /* SuggestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5DBCF425D984C6002BD31C /* SuggestionView.swift */; };
+		DB5DBCFA25D9983E002BD31C /* StackableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5DBCF925D9983E002BD31C /* StackableView.swift */; };
 		DB9B209B25CD814800F1FF58 /* SwiftUI_CustomViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9B209A25CD814800F1FF58 /* SwiftUI_CustomViewApp.swift */; };
 		DB9B209D25CD814800F1FF58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9B209C25CD814800F1FF58 /* ContentView.swift */; };
 		DB9B209F25CD814A00F1FF58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB9B209E25CD814A00F1FF58 /* Assets.xcassets */; };
@@ -54,6 +55,7 @@
 /* Begin PBXFileReference section */
 		DB5DBCEF25D96ECB002BD31C /* ConnectionAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionAlertView.swift; sourceTree = "<group>"; };
 		DB5DBCF425D984C6002BD31C /* SuggestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionView.swift; sourceTree = "<group>"; };
+		DB5DBCF925D9983E002BD31C /* StackableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackableView.swift; sourceTree = "<group>"; };
 		DB9B209725CD814800F1FF58 /* SwiftUI-CustomView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-CustomView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB9B209A25CD814800F1FF58 /* SwiftUI_CustomViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_CustomViewApp.swift; sourceTree = "<group>"; };
 		DB9B209C25CD814800F1FF58 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 				DB5DBCEF25D96ECB002BD31C /* ConnectionAlertView.swift */,
 				DBE0CA7525D661500040EE6E /* DataCardView.swift */,
 				DB5DBCF425D984C6002BD31C /* SuggestionView.swift */,
+				DB5DBCF925D9983E002BD31C /* StackableView.swift */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -363,6 +366,7 @@
 				DBEB6DFC25D017A20025C039 /* View+Extension.swift in Sources */,
 				DBE0CA6E25D634730040EE6E /* Color+Extension.swift in Sources */,
 				DB9B209D25CD814800F1FF58 /* ContentView.swift in Sources */,
+				DB5DBCFA25D9983E002BD31C /* StackableView.swift in Sources */,
 				DB9B209B25CD814800F1FF58 /* SwiftUI_CustomViewApp.swift in Sources */,
 				DB5DBCF025D96ECB002BD31C /* ConnectionAlertView.swift in Sources */,
 				DBE0CA7625D661510040EE6E /* DataCardView.swift in Sources */,
