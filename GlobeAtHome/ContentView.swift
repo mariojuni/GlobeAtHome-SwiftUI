@@ -13,9 +13,8 @@ struct ContentView: View {
     var body: some View {
         GeometryReader { geometry in
             VStack {
-
                 ZStack {
-                    HomeView()
+                    HomeScreen()
                     
                     ZStack(alignment: .bottom ) {
                         HStack(alignment: .bottom ) {

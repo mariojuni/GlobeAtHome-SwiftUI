@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/mariojuni/Desktop/SwiftUI-CustomView/GlobeAtHome.xcodeproj">
    </FileRef>
 </Workspace>

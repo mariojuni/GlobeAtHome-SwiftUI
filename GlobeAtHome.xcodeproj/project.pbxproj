@@ -20,7 +20,7 @@
 		DB9B20B825CD814A00F1FF58 /* SwiftUI_CustomViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9B20B725CD814A00F1FF58 /* SwiftUI_CustomViewUITests.swift */; };
 		DBE0CA3625D1BD6A0040EE6E /* QuickMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE0CA3525D1BD6A0040EE6E /* QuickMenuView.swift */; };
 		DBE0CA4125D1C8F30040EE6E /* BottomBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE0CA4025D1C8F30040EE6E /* BottomBarView.swift */; };
-		DBE0CA6925D62D9C0040EE6E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE0CA6825D62D9C0040EE6E /* HomeView.swift */; };
+		DBE0CA6925D62D9C0040EE6E /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE0CA6825D62D9C0040EE6E /* HomeScreen.swift */; };
 		DBE0CA6E25D634730040EE6E /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE0CA6D25D634730040EE6E /* Color+Extension.swift */; };
 		DBE0CA7625D661510040EE6E /* DataCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE0CA7525D661500040EE6E /* DataCardView.swift */; };
 		DBE0CB8125D80AEF0040EE6E /* Barlow-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DBEB6DF325D015940025C039 /* Barlow-Regular.ttf */; };
@@ -60,21 +60,21 @@
 		DB5DBCF925D9983E002BD31C /* StackableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackableView.swift; sourceTree = "<group>"; };
 		DB5DBCFE25D99E1A002BD31C /* HelpAndSupportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpAndSupportView.swift; sourceTree = "<group>"; };
 		DB5DBD1025D9AAED002BD31C /* SnapCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapCarousel.swift; sourceTree = "<group>"; };
-		DB9B209725CD814800F1FF58 /* SwiftUI-CustomView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-CustomView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB9B209725CD814800F1FF58 /* GlobeAtHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlobeAtHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB9B209A25CD814800F1FF58 /* SwiftUI_CustomViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_CustomViewApp.swift; sourceTree = "<group>"; };
 		DB9B209C25CD814800F1FF58 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DB9B209E25CD814A00F1FF58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB9B20A125CD814A00F1FF58 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DB9B20A325CD814A00F1FF58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DB9B20A825CD814A00F1FF58 /* SwiftUI-CustomViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-CustomViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB9B20A825CD814A00F1FF58 /* GlobeAtHomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlobeAtHomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB9B20AC25CD814A00F1FF58 /* SwiftUI_CustomViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_CustomViewTests.swift; sourceTree = "<group>"; };
 		DB9B20AE25CD814A00F1FF58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DB9B20B325CD814A00F1FF58 /* SwiftUI-CustomViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-CustomViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB9B20B325CD814A00F1FF58 /* GlobeAtHomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlobeAtHomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB9B20B725CD814A00F1FF58 /* SwiftUI_CustomViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_CustomViewUITests.swift; sourceTree = "<group>"; };
 		DB9B20B925CD814A00F1FF58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBE0CA3525D1BD6A0040EE6E /* QuickMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickMenuView.swift; sourceTree = "<group>"; };
 		DBE0CA4025D1C8F30040EE6E /* BottomBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBarView.swift; sourceTree = "<group>"; };
-		DBE0CA6825D62D9C0040EE6E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		DBE0CA6825D62D9C0040EE6E /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		DBE0CA6D25D634730040EE6E /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		DBE0CA7525D661500040EE6E /* DataCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCardView.swift; sourceTree = "<group>"; };
 		DBEB6DEB25D015930025C039 /* FS-Elliot-Pro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FS-Elliot-Pro-Bold.otf"; sourceTree = "<group>"; };
@@ -120,7 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				DB5DBD0425D9A737002BD31C /* Views */,
-				DBE0CA6825D62D9C0040EE6E /* HomeView.swift */,
+				DBE0CA6825D62D9C0040EE6E /* HomeScreen.swift */,
 			);
 			path = "Home Screen";
 			sourceTree = "<group>";
@@ -154,10 +154,17 @@
 			path = Common;
 			sourceTree = "<group>";
 		};
+		DB5DBD3525DD4429002BD31C /* Data Screen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Data Screen";
+			sourceTree = "<group>";
+		};
 		DB9B208E25CD814800F1FF58 = {
 			isa = PBXGroup;
 			children = (
-				DB9B209925CD814800F1FF58 /* SwiftUI-CustomView */,
+				DB9B209925CD814800F1FF58 /* GlobeAtHome */,
 				DB9B20AB25CD814A00F1FF58 /* SwiftUI-CustomViewTests */,
 				DB9B20B625CD814A00F1FF58 /* SwiftUI-CustomViewUITests */,
 				DB9B209825CD814800F1FF58 /* Products */,
@@ -167,14 +174,14 @@
 		DB9B209825CD814800F1FF58 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DB9B209725CD814800F1FF58 /* SwiftUI-CustomView.app */,
-				DB9B20A825CD814A00F1FF58 /* SwiftUI-CustomViewTests.xctest */,
-				DB9B20B325CD814A00F1FF58 /* SwiftUI-CustomViewUITests.xctest */,
+				DB9B209725CD814800F1FF58 /* GlobeAtHome.app */,
+				DB9B20A825CD814A00F1FF58 /* GlobeAtHomeTests.xctest */,
+				DB9B20B325CD814A00F1FF58 /* GlobeAtHomeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DB9B209925CD814800F1FF58 /* SwiftUI-CustomView */ = {
+		DB9B209925CD814800F1FF58 /* GlobeAtHome */ = {
 			isa = PBXGroup;
 			children = (
 				DB5DBD0F25D9AAC0002BD31C /* Common */,
@@ -187,7 +194,7 @@
 				DB9B20A325CD814A00F1FF58 /* Info.plist */,
 				DB9B20A025CD814A00F1FF58 /* Preview Content */,
 			);
-			path = "SwiftUI-CustomView";
+			path = GlobeAtHome;
 			sourceTree = "<group>";
 		};
 		DB9B20A025CD814A00F1FF58 /* Preview Content */ = {
@@ -219,6 +226,7 @@
 		DBE0CA3425D1BD500040EE6E /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				DB5DBD3525DD4429002BD31C /* Data Screen */,
 				DB5DBD0B25D9A755002BD31C /* Tab Menu Screen */,
 				DB5DBD0325D9A71D002BD31C /* Home Screen */,
 			);
@@ -263,9 +271,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DB9B209625CD814800F1FF58 /* SwiftUI-CustomView */ = {
+		DB9B209625CD814800F1FF58 /* GlobeAtHome */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DB9B20BC25CD814A00F1FF58 /* Build configuration list for PBXNativeTarget "SwiftUI-CustomView" */;
+			buildConfigurationList = DB9B20BC25CD814A00F1FF58 /* Build configuration list for PBXNativeTarget "GlobeAtHome" */;
 			buildPhases = (
 				DB9B209325CD814800F1FF58 /* Sources */,
 				DB9B209425CD814800F1FF58 /* Frameworks */,
@@ -275,14 +283,14 @@
 			);
 			dependencies = (
 			);
-			name = "SwiftUI-CustomView";
+			name = GlobeAtHome;
 			productName = "SwiftUI-CustomView";
-			productReference = DB9B209725CD814800F1FF58 /* SwiftUI-CustomView.app */;
+			productReference = DB9B209725CD814800F1FF58 /* GlobeAtHome.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DB9B20A725CD814A00F1FF58 /* SwiftUI-CustomViewTests */ = {
+		DB9B20A725CD814A00F1FF58 /* GlobeAtHomeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DB9B20BF25CD814A00F1FF58 /* Build configuration list for PBXNativeTarget "SwiftUI-CustomViewTests" */;
+			buildConfigurationList = DB9B20BF25CD814A00F1FF58 /* Build configuration list for PBXNativeTarget "GlobeAtHomeTests" */;
 			buildPhases = (
 				DB9B20A425CD814A00F1FF58 /* Sources */,
 				DB9B20A525CD814A00F1FF58 /* Frameworks */,
@@ -293,14 +301,14 @@
 			dependencies = (
 				DB9B20AA25CD814A00F1FF58 /* PBXTargetDependency */,
 			);
-			name = "SwiftUI-CustomViewTests";
+			name = GlobeAtHomeTests;
 			productName = "SwiftUI-CustomViewTests";
-			productReference = DB9B20A825CD814A00F1FF58 /* SwiftUI-CustomViewTests.xctest */;
+			productReference = DB9B20A825CD814A00F1FF58 /* GlobeAtHomeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DB9B20B225CD814A00F1FF58 /* SwiftUI-CustomViewUITests */ = {
+		DB9B20B225CD814A00F1FF58 /* GlobeAtHomeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DB9B20C225CD814A00F1FF58 /* Build configuration list for PBXNativeTarget "SwiftUI-CustomViewUITests" */;
+			buildConfigurationList = DB9B20C225CD814A00F1FF58 /* Build configuration list for PBXNativeTarget "GlobeAtHomeUITests" */;
 			buildPhases = (
 				DB9B20AF25CD814A00F1FF58 /* Sources */,
 				DB9B20B025CD814A00F1FF58 /* Frameworks */,
@@ -311,9 +319,9 @@
 			dependencies = (
 				DB9B20B525CD814A00F1FF58 /* PBXTargetDependency */,
 			);
-			name = "SwiftUI-CustomViewUITests";
+			name = GlobeAtHomeUITests;
 			productName = "SwiftUI-CustomViewUITests";
-			productReference = DB9B20B325CD814A00F1FF58 /* SwiftUI-CustomViewUITests.xctest */;
+			productReference = DB9B20B325CD814A00F1FF58 /* GlobeAtHomeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -338,7 +346,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DB9B209225CD814800F1FF58 /* Build configuration list for PBXProject "SwiftUI-CustomView" */;
+			buildConfigurationList = DB9B209225CD814800F1FF58 /* Build configuration list for PBXProject "GlobeAtHome" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -351,9 +359,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DB9B209625CD814800F1FF58 /* SwiftUI-CustomView */,
-				DB9B20A725CD814A00F1FF58 /* SwiftUI-CustomViewTests */,
-				DB9B20B225CD814A00F1FF58 /* SwiftUI-CustomViewUITests */,
+				DB9B209625CD814800F1FF58 /* GlobeAtHome */,
+				DB9B20A725CD814A00F1FF58 /* GlobeAtHomeTests */,
+				DB9B20B225CD814A00F1FF58 /* GlobeAtHomeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -410,7 +418,7 @@
 				DB5DBCF025D96ECB002BD31C /* ConnectionAlertView.swift in Sources */,
 				DB5DBCFF25D99E1A002BD31C /* HelpAndSupportView.swift in Sources */,
 				DBE0CA7625D661510040EE6E /* DataCardView.swift in Sources */,
-				DBE0CA6925D62D9C0040EE6E /* HomeView.swift in Sources */,
+				DBE0CA6925D62D9C0040EE6E /* HomeScreen.swift in Sources */,
 				DBE0CA4125D1C8F30040EE6E /* BottomBarView.swift in Sources */,
 				DBE0CA3625D1BD6A0040EE6E /* QuickMenuView.swift in Sources */,
 			);
@@ -437,12 +445,12 @@
 /* Begin PBXTargetDependency section */
 		DB9B20AA25CD814A00F1FF58 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DB9B209625CD814800F1FF58 /* SwiftUI-CustomView */;
+			target = DB9B209625CD814800F1FF58 /* GlobeAtHome */;
 			targetProxy = DB9B20A925CD814A00F1FF58 /* PBXContainerItemProxy */;
 		};
 		DB9B20B525CD814A00F1FF58 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DB9B209625CD814800F1FF58 /* SwiftUI-CustomView */;
+			target = DB9B209625CD814800F1FF58 /* GlobeAtHome */;
 			targetProxy = DB9B20B425CD814A00F1FF58 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -570,15 +578,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-CustomView/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"GlobeAtHome/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "SwiftUI-CustomView/Info.plist";
+				INFOPLIST_FILE = GlobeAtHome/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mariojuni.SwiftUI-CustomView";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mariojuni.globeathome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -591,15 +599,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-CustomView/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"GlobeAtHome/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "SwiftUI-CustomView/Info.plist";
+				INFOPLIST_FILE = GlobeAtHome/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mariojuni.SwiftUI-CustomView";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mariojuni.globeathome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -623,7 +631,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUI-CustomView.app/SwiftUI-CustomView";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GlobeAtHome.app/GlobeAtHome";
 			};
 			name = Debug;
 		};
@@ -644,7 +652,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUI-CustomView.app/SwiftUI-CustomView";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GlobeAtHome.app/GlobeAtHome";
 			};
 			name = Release;
 		};
@@ -689,7 +697,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DB9B209225CD814800F1FF58 /* Build configuration list for PBXProject "SwiftUI-CustomView" */ = {
+		DB9B209225CD814800F1FF58 /* Build configuration list for PBXProject "GlobeAtHome" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DB9B20BA25CD814A00F1FF58 /* Debug */,
@@ -698,7 +706,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DB9B20BC25CD814A00F1FF58 /* Build configuration list for PBXNativeTarget "SwiftUI-CustomView" */ = {
+		DB9B20BC25CD814A00F1FF58 /* Build configuration list for PBXNativeTarget "GlobeAtHome" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DB9B20BD25CD814A00F1FF58 /* Debug */,
@@ -707,7 +715,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DB9B20BF25CD814A00F1FF58 /* Build configuration list for PBXNativeTarget "SwiftUI-CustomViewTests" */ = {
+		DB9B20BF25CD814A00F1FF58 /* Build configuration list for PBXNativeTarget "GlobeAtHomeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DB9B20C025CD814A00F1FF58 /* Debug */,
@@ -716,7 +724,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DB9B20C225CD814A00F1FF58 /* Build configuration list for PBXNativeTarget "SwiftUI-CustomViewUITests" */ = {
+		DB9B20C225CD814A00F1FF58 /* Build configuration list for PBXNativeTarget "GlobeAtHomeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DB9B20C325CD814A00F1FF58 /* Debug */,
